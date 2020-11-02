@@ -9,7 +9,7 @@ const FILES_TO_CACHE = [
   "/db.js",
   "/index.js",
 
-  "/favicon.ico",
+  //"/favicon.ico",
   "/manifest.webmanifest",
   "/styles.css",
   //"/assets/js/loadImages.js",
@@ -57,6 +57,7 @@ self.addEventListener("activate", function(evt) {
 
 // fetch
 self.addEventListener("fetch", function(evt) {
+    console.log("line 60");
   if (evt.request.url.includes("/api/")) {
     evt.respondWith(
       caches.open(DATA_CACHE_NAME).then(cache => {
@@ -66,11 +67,12 @@ self.addEventListener("fetch", function(evt) {
             if (response.status === 200) {
               cache.put(evt.request.url, response.clone());
             }
-
+            console.log("line 70");
             return response;
           })
           .catch(err => {
             // Network request failed, try to get it from the cache.
+            console.log("line 75");
             return cache.match(evt.request);
           });
       }).catch(err => console.log(err))
