@@ -6,9 +6,18 @@ No license selected
 The user will be able to add expenses and deposits to their budget with or without a connection.
 
 ## Screenshots
-![Screenshot (140)](https://user-images.githubusercontent.com/62854999/98430898-0151b700-207f-11eb-842a-5ff1739c3ae0.png)
-![Screenshot (141)](https://user-images.githubusercontent.com/62854999/98430899-0151b700-207f-11eb-97ce-9a35b421ee02.png)
-![Screenshot (142)](https://user-images.githubusercontent.com/62854999/98430900-01ea4d80-207f-11eb-9573-396c98ecde45.png)
+
+App in localhost
+![Screenshot (143)](https://user-images.githubusercontent.com/62854999/98431015-dddb3c00-207f-11eb-9f43-0a81506ccf1c.png)
+App in heroku
+![Screenshot (144)](https://user-images.githubusercontent.com/62854999/98431011-dd42a580-207f-11eb-81fe-8a103e05bced.png)
+Offline transactions
+![Screenshot (145)](https://user-images.githubusercontent.com/62854999/98431012-dd42a580-207f-11eb-89c1-1b534cac2ba9.png)
+service worker in dev tools
+![Screenshot (146)](https://user-images.githubusercontent.com/62854999/98431013-dd42a580-207f-11eb-892f-6ae451e160e2.png)
+Online deposit
+![Screenshot (147)](https://user-images.githubusercontent.com/62854999/98431014-dddb3c00-207f-11eb-89b5-8a6ae5d1c711.png)
+
 
 ## Table of Contents
 
