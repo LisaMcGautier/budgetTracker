@@ -5,6 +5,11 @@ No license selected
 
 The user will be able to add expenses and deposits to their budget with or without a connection.
 
+## Screenshots
+![Screenshot (140)](https://user-images.githubusercontent.com/62854999/98430898-0151b700-207f-11eb-842a-5ff1739c3ae0.png)
+![Screenshot (141)](https://user-images.githubusercontent.com/62854999/98430899-0151b700-207f-11eb-97ce-9a35b421ee02.png)
+![Screenshot (142)](https://user-images.githubusercontent.com/62854999/98430900-01ea4d80-207f-11eb-9573-396c98ecde45.png)
+
 ## Table of Contents
 
 * [Technologies](#technologies)
